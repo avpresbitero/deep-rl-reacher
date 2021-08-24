@@ -88,7 +88,7 @@ python -m ipykernel install --user --name drl --display-name "drl"
 ```
 jupyter notebook 
 ```
-5. Navigate to [Continuous_Control.ipynb](). Change the kernel to match the `drl` environment by using the drop-down `Kernel` menu. 
+5. Navigate to [Continuous_Control.ipynb](https://github.com/avpresbitero/deep-rl-reacher/blob/master/Continuous_Control.ipynb). Change the kernel to match the `drl` environment by using the drop-down `Kernel` menu. 
 
 ### License
 
