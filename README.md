@@ -7,7 +7,7 @@ This is my submission for Udacity's Deep Reinforcement Learning Nanodegree for P
 
 ## Introduction
 
-Using the [Reacher](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#reacher) environment, this project's goal is to be able to continuously hold the double-jointed arm's position at the target location as long as possible, and therefore, as many timesteps as possible. 
+Using the [Reacher](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#reacher) environment, this project's goal is to be able to continuously hold the double-jointed arm's position at the target location as long as possible, and therefore, as many timesteps as possible. Watch this [video](https://www.youtube.com/watch?v=ZVIxt2rt1_4) to see how some researchers were able to train a similar task on a real robot! Really cool stuff.
 
 This project has initially two versions: 
 
@@ -46,7 +46,6 @@ For this project, work with the [Reacher](https://github.com/Unity-Technologies/
 </div>
 
 ## Getting Started
-The Project is for Udacity Deep Reinforcement learning nd. 
 
 ### Download the Unity Environment
 - Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Linux.zip)
@@ -57,6 +56,7 @@ The Project is for Udacity Deep Reinforcement learning nd.
 ### Establish Dependencies
 
 The current Unity ML-Agents environment only supports `Python 3.6` Hence, the following steps need to be followed.
+
 
 1. Create and activate a new environment with `Python 3.6`
 
@@ -71,7 +71,7 @@ The current Unity ML-Agents environment only supports `Python 3.6` Hence, the fo
 	activate drl
 	```
 
-2. Clone the deep reinforcement learning repository, and navigate to the `python/` folder.  Install several dependencies.
+2. Clone the deep reinforcement learning repository if you haven't yet, and navigate to the `python/` folder.  Install the dependencies using the following code. 
 ```bash
 git clone https://github.com/udacity/deep-reinforcement-learning.git
 cd deep-reinforcement-learning/python
@@ -83,12 +83,22 @@ pip install .
 python -m ipykernel install --user --name drl --display-name "drl"
 ```
 
-4. Run Jupyter notebook environment
+
+### Running the Project
+
+1. Clone this repository.
+
+```bash
+git clone https://github.com/avpresbitero/deep-rl-reacher.git
+```
+
+2. Run Jupyter notebook environment
 
 ```
 jupyter notebook 
 ```
-5. Navigate to [Continuous_Control.ipynb](https://github.com/avpresbitero/deep-rl-reacher/blob/master/Continuous_Control.ipynb). Change the kernel to match the `drl` environment by using the drop-down `Kernel` menu. 
+
+3. Navigate to [Continuous_Control.ipynb](https://github.com/avpresbitero/deep-rl-reacher/blob/master/Continuous_Control.ipynb). Change the kernel to match the `drl` environment by using the drop-down `Kernel` menu. 
 
 ### License
 
