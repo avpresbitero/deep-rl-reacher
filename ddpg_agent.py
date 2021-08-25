@@ -21,7 +21,6 @@ EPSILON_DECAY = 1e-6    # epsilon decay
 LEARN_TIMES = 10        # learning 10 times 
 LEARN_INTERVAL = 20     # per 20 timesteps   
 
-
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
 class Agent():
@@ -104,7 +103,7 @@ class Agent():
         # Minimize the loss
         self.critic_optimizer.zero_grad()
         critic_loss.backward()
-        
+
 #         torch.nn.utils.clip_grad_norm_(self.critic_local.parameters(), 1)
         self.critic_optimizer.step()
 
