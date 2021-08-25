@@ -35,16 +35,16 @@ TAU = 1e-3              # for soft update of target parameters
 LR_ACTOR = 1e-3         # learning rate of the actor
 LR_CRITIC = 1e-3        # learning rate of the critic
 WEIGHT_DECAY = 0        # L2 weight decay
-EPSILON_DECAY = 1e-6    # epsilon decay
 EPSILON = 1.0           # exploration actions space
-LEARN_INTERVAL = 20     # learning 10 times per 20 timesteps   
-LEARN_TIMES = 10   
+EPSILON_DECAY = 1e-6    # epsilon decay
+LEARN_TIMES = 10        # learning 10 times 
+LEARN_INTERVAL = 20     # per 20 timesteps    
 ```
 
 Model Structure
 
 
-|  NN       |   fc1_units      | fc2_units   | EPSILON | EPSILON_DECAY| output_layer |
+|  Neural Network       |   fc1_units      | fc2_units   | EPSILON | EPSILON_DECAY| output_layer |
 |------------|------------------|-------------|-----------|--------------|-----------|
 |  Actor     |  512             | 512         |  1.0         | 1e-6         | 4            |
 |  Critic    |  512             | 512         |  1.0         | 1e-6         | 1            |
