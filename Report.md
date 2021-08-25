@@ -44,10 +44,10 @@ LEARN_TIMES = 10
 Model Structure
 
 
-|  NN       |   fc1_units      | fc2_units   | EPSILON , EPSILON_DECAY| output_layer |
-|------------|------------------|-------------|-----------|--------------|
-|  Actor     |  512             | 512         |  1.0 , 1e-6     | 4            |
-|  Critic    |  512             | 512         |  1.0 , 1e-6      | 1            |
+|  NN       |   fc1_units      | fc2_units   | EPSILON | EPSILON_DECAY| output_layer |
+|------------|------------------|-------------|-----------|--------------|-----------|
+|  Actor     |  512             | 512         |  1.0         | 1e-6         | 4            |
+|  Critic    |  512             | 512         |  1.0         | 1e-6         | 1            |
 
 ### Result
 
